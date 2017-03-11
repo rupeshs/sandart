@@ -4,6 +4,13 @@ Converts photos to sand artworks.
 
 I started with some pixel manipulations/Feature detection and the result is Sand Art
 
+### Demos 
+![All examples](https://raw.githubusercontent.com/rupeshs/sandart/master/samples/all.jpg)  
+
+###Dependencies
+* Python 3.x 
+* PIL
+
 ```
 usage: sandart.py [-h] -i IMAGE [-s STRENGTH] [-c SANDCOLOR SANDCOLOR SANDCOLOR] [-n INVERT] -o SAVEPATH
 
@@ -25,8 +32,7 @@ optional arguments:
                           Sand art path with file extension
       
 ```
-      
-### Demos 
-![flower](https://raw.githubusercontent.com/rupeshs/sandart/master/samples/all.jpg)  
-
+  
+### Differnt options and styles
+![Styles](https://raw.githubusercontent.com/rupeshs/sandart/master/samples/styles.jpg) 
 
