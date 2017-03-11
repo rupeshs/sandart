@@ -7,7 +7,7 @@ Copyright 2017-present Rupesh Sreeraman. All Rights Reserved
 ============================================================
 """
 #imports 
-from PIL import Image,ImageFilter
+from PIL import Image
 from collections import defaultdict
 import argparse
 import time
