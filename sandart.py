@@ -2,7 +2,7 @@
 """
 ============================================================
               SandArt 
-Converts photos to sand artworks
+Converts photos into sand artworks
 Copyright 2017-present Rupesh Sreeraman. All Rights Reserved
 ============================================================
 """
@@ -15,7 +15,7 @@ import time
 print("")
 print("***********************************************")
 print("                 SandArt v1.0                  ")
-print("Converts photos to sand artworks")
+print("Converts photos into sand artworks")
 print("Copyright 2017-present Rupesh Sreeraman")
 print("***********************************************")
 
