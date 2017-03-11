@@ -1,7 +1,7 @@
 # sandart
 Converts photos to sand artworks.
 I started with some pixel manipulations/Feature detection and the result is Sand Art
-
+```
 usage: sandart.py [-h] -i IMAGE [-s STRENGTH] [-c SANDCOLOR SANDCOLOR SANDCOLOR] [-n INVERT] -o SAVEPATH
 
 SandArt v1.0
@@ -18,3 +18,4 @@ optional arguments:
                       style use 1 to enable 0 to disable | default 0
   -o SAVEPATH, --savepath SAVEPATH 
                           Sand art path with file extension
+                          ```
