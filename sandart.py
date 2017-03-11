@@ -1,10 +1,10 @@
 
 """
-=====================================================
+============================================================
               SandArt 
 Converts photos to sand artworks
-Copyright 2017 Rupesh Sreeraman. All Rights Reserved
-=====================================================
+Copyright 2017-present Rupesh Sreeraman. All Rights Reserved
+============================================================
 """
 #imports 
 from PIL import Image,ImageFilter
@@ -16,7 +16,7 @@ print("")
 print("***********************************************")
 print("                 SandArt v1.0                  ")
 print("Converts photos to sand artworks")
-print("Copyright 2017 Rupesh Sreeraman")
+print("Copyright 2017-present Rupesh Sreeraman")
 print("***********************************************")
 
 #options
@@ -46,7 +46,7 @@ width, height = im.size
 print (im.format, im.size, im.mode, im.bits ,'bits')
 
 
-im_out = Image.new("RGB", (width, height), "white") #New RGB to hold the result
+im_out = Image.new("RGB", (width, height), "white") #new RGB image to hold the result
 rgb_im = im.convert('RGB') #convert
 
 rgb_im_out = im_out.convert('RGB')
