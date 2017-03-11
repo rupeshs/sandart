@@ -14,6 +14,8 @@ optional arguments:
                           Sand art strength [1-20]
   -c SANDCOLOR SANDCOLOR SANDCOLOR, --sandcolor SANDCOLOR SANDCOLOR SANDCOLOR
                                                  Sand art strength,RGB value eg: 255 30 50
+  -tc USETOPCOLOR, --usetopcolor USETOPCOLOR
+                       Use top image color as sand color | use 1 to enable 0 to disable | default 0                                       
   -n INVERT, --invert INVERT Invert 
                       style use 1 to enable 0 to disable | default 0
   -o SAVEPATH, --savepath SAVEPATH 
