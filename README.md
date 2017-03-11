@@ -22,4 +22,9 @@ optional arguments:
                       style use 1 to enable 0 to disable | default 0
   -o SAVEPATH, --savepath SAVEPATH 
                           Sand art path with file extension
-                          ```
+      
+      ```
+      
+Demos 
+!(https://raw.githubusercontent.com/rupeshs/sandart/master/samples/flower.jpg )
+
