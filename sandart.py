@@ -22,7 +22,7 @@ print("***********************************************")
 #options
 parser = argparse.ArgumentParser(description='SandArt v1.0')
 parser.add_argument('-i','--image',help='Source image path',required=True,)
-parser.add_argument('-s','--strength',help='Sand art strength [1-20]',type=int,default=10)
+parser.add_argument('-s','--strength',help='Sand art strength [>1]',type=int,default=10)
 parser.add_argument ('-c','--sandcolor', help='Sand art strength,RGB value eg: 255 30 50',nargs=3,type=int)
 parser.add_argument ('-tc','--usetopcolor', help='Use top image color as sand color | use 1 to enable 0 to disable | default 0',type=int,default=0)
 parser.add_argument ('-n','--invert', help='Invert style use 1 to enable 0 to disable | default 0',type=int,default=0)
