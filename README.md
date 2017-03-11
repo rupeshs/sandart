@@ -1,9 +1,6 @@
 # sandart
 Converts photos to sand artworks.
 
-### Demos 
-
-![flower](https://raw.githubusercontent.com/rupeshs/sandart/master/samples/all.jpg)
 
 I started with some pixel manipulations/Feature detection and the result is Sand Art
 
@@ -27,7 +24,9 @@ optional arguments:
   -o SAVEPATH, --savepath SAVEPATH 
                           Sand art path with file extension
       
-      ```
+```
       
+### Demos 
+![flower](https://raw.githubusercontent.com/rupeshs/sandart/master/samples/all.jpg)  
 
 
