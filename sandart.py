@@ -18,13 +18,13 @@ print("                 SandArt v1.0                  ")
 print("Converts photos to sand artworks")
 print("Copyright 2017 Rupesh Sreeraman")
 print("***********************************************")
-print("")
 
 #options
 parser = argparse.ArgumentParser(description='SandArt v1.0')
 parser.add_argument('-i','--image',help='Source image path',required=True,)
 parser.add_argument('-s','--strength',help='Sand art strength [1-20]',type=int,default=10)
 parser.add_argument ('-c','--sandcolor', help='Sand art strength,RGB value eg: 255 30 50',nargs=3,type=int)
+parser.add_argument ('-tc','--usetopcolor', help='Use top image color as sand color | use 1 to enable 0 to disable | default 0',type=int,default=0)
 parser.add_argument ('-n','--invert', help='Invert style use 1 to enable 0 to disable | default 0',type=int,default=0)
 parser.add_argument('-o' ,'--savepath',help='Sand art path',required=True)
 
@@ -43,8 +43,8 @@ except:
     exit()
 
 width, height = im.size
-print (im.format, im.size, im.mode)
-print('Sand color ',str(sandcolor))
+print (im.format, im.size, im.mode, im.bits ,'bits')
+
 
 im_out = Image.new("RGB", (width, height), "white") #New RGB to hold the result
 rgb_im = im.convert('RGB') #convert
@@ -52,9 +52,15 @@ rgb_im = im.convert('RGB') #convert
 rgb_im_out = im_out.convert('RGB')
 
 color_dict = defaultdict(int)
+
 for pixel in im.getdata():
     color_dict[pixel] += 1
+if args.usetopcolor==1:
+    top_color = max(color_dict, key=color_dict.get)
+    print('Top color',top_color , color_dict[top_color])
+    sandcolor=top_color
 
+print('Sand color ',str(sandcolor))
 for y in range(0,height):
     for x in range (0,width):
         r,g,b=rgb_im.getpixel((x, y))
