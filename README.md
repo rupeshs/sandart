@@ -1,5 +1,5 @@
 # sandart
-Converts photos to sand artworks.
+Converts photos into sand artworks.
 
 
 I started with some pixel manipulations/Feature detection and the result is Sand Art
