@@ -1,8 +1,12 @@
 # sandart
 Converts photos to sand artworks.
 
+### Demos 
+
+![flower](https://raw.githubusercontent.com/rupeshs/sandart/master/samples/all.jpg)
 
 I started with some pixel manipulations/Feature detection and the result is Sand Art
+
 ```
 usage: sandart.py [-h] -i IMAGE [-s STRENGTH] [-c SANDCOLOR SANDCOLOR SANDCOLOR] [-n INVERT] -o SAVEPATH
 
@@ -25,6 +29,5 @@ optional arguments:
       
       ```
       
-Demos 
-!(https://raw.githubusercontent.com/rupeshs/sandart/master/samples/flower.jpg )
+
 
