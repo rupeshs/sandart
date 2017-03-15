@@ -33,6 +33,6 @@ optional arguments:
       
 ```
   
-### Differnt options and styles
+### Different options and styles
 ![Styles](https://raw.githubusercontent.com/rupeshs/sandart/master/samples/styles.jpg) 
 
